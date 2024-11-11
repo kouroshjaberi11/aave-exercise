@@ -15,6 +15,7 @@ const Market = () => {
   useEffect(() => {
     async function fetchMarketData() {
       try {
+        // TODO: Hide the api url
         const provider = new ethers.JsonRpcProvider("https://mainnet.infura.io/v3/5cf1c814b16c499fa255745c00bd80c7");
         console.log(provider);
         //AaveDataProvider contract address
